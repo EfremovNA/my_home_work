@@ -1,6 +1,6 @@
 grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
-students_=list(students) # переводим наш словарь по именам в список
+students_=list(sorted(students)) # переводим наш словарь по именам в список
 sred_bal= [] # создаем новый список для внесения средних балов
 # находим средний бал для нашего списка grades, и записываем их в новый список sred_bal
 for x in grades:
